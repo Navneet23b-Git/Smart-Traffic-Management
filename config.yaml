@@ -1,0 +1,30 @@
+# config.yaml
+
+# Signal timing (seconds)
+min_green: 8
+max_green: 40
+max_wait: 60
+yellow_time: 3   # get-ready buffer
+
+# Fusion & thresholds
+density_delta: 0.25
+box_occupancy_threshold: 5
+exit_block_threshold: 5
+stagnation_cycles: 3
+recovery_window: 12
+
+# Scheduler weights (fairness)
+weights:
+  density: 0.6
+  wait: 0.3
+  exit_free: 0.1
+
+# Corridor coordination (optional)
+max_downstream_queue: 15
+green_wave_bonus: 1.2
+
+# YOLO
+yolo:
+  model_path: yolov8n.pt
+  conf: 0.4
+  imgsz: 640

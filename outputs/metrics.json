@@ -1,0 +1,130 @@
+{
+  "mode": "NORMAL",
+  "phase": "GREEN",
+  "current_green": "W",
+  "next_green": null,
+  "lanes": {
+    "N": {
+      "density": 0.4,
+      "box_occupancy": 1,
+      "exit_free": true,
+      "counts": {
+        "entry": {
+          "bike": 0,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "box": {
+          "bike": 1,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "exit": {
+          "bike": 0,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        }
+      },
+      "last_green_ts": 1771099905.3304982,
+      "wait_time": 60.34472608566284
+    },
+    "E": {
+      "density": 0.8,
+      "box_occupancy": 2,
+      "exit_free": true,
+      "counts": {
+        "entry": {
+          "bike": 0,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "box": {
+          "bike": 0,
+          "car": 2,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "exit": {
+          "bike": 1,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        }
+      },
+      "last_green_ts": 1771099918.5492404,
+      "wait_time": 47.12598395347595
+    },
+    "S": {
+      "density": 4.2,
+      "box_occupancy": 6,
+      "exit_free": true,
+      "counts": {
+        "entry": {
+          "bike": 2,
+          "car": 1,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "box": {
+          "bike": 2,
+          "car": 4,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "exit": {
+          "bike": 0,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        }
+      },
+      "last_green_ts": 1771099945.962697,
+      "wait_time": 19.71252727508545
+    },
+    "W": {
+      "density": 1.6,
+      "box_occupancy": 4,
+      "exit_free": true,
+      "counts": {
+        "entry": {
+          "bike": 0,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "box": {
+          "bike": 0,
+          "car": 4,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        },
+        "exit": {
+          "bike": 1,
+          "car": 0,
+          "bus": 0,
+          "truck": 0,
+          "emergency": 0
+        }
+      },
+      "last_green_ts": 1771099965.6752243,
+      "wait_time": 0.0
+    }
+  },
+  "ts": 1771099965.6752243,
+  "green_time_left": 6
+}

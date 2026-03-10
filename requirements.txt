@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+numpy
+streamlit
+paho-mqtt
+pyyaml
+flask
